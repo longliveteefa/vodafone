@@ -26,7 +26,7 @@ $title = "Vodafone";
     <title><?php echo $title; ?> | <?php echo $title_2;?></title>
     <link rel="stylesheet" href="<?php echo $_url;?>templates/blue/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo $_url;?>templates/blue/css/style">
-    <link rel="icon" href="<?php echo $_url;?>templates/blue/images/icon_voda.png" type="image/png">
+    <link rel="icon" href="<?php echo $_url;?>templates/blue/images/info_voda.png" type="image/png">
 </head>
 <body>
 <!--Bodyhere-->
