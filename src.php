@@ -5,7 +5,7 @@ $_template = "templates";
 $id_session = session_id();
 
 
-$_url = "http://www.longliveteefa.online/vodafone";
+$_url = "http://www.longliveteefa.online/";
 
 function url(){
     return sprintf(

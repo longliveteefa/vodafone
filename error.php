@@ -1,4 +1,5 @@
 <?php 
+include "src.php";
 $status = $_SERVER['REDIRECT_STATUS'];
 $codes = array(
        403 => array('403 Forbidden', 'The server has refused to fulfill your request.'),
@@ -23,9 +24,9 @@ $title = "Vodafone";
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $title; ?> | <?php echo $title_2;?></title>
-    <link rel="stylesheet" href="templates/blue/css/bootstrap.min.css">
-    <link rel="stylesheet" href="templates/blue/css/style">
-    <link rel="icon" href="templates/blue/images/icon_voda.png" type="image/png">
+    <link rel="stylesheet" href="<?php echo $_url;?>templates/blue/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo $_url;?>templates/blue/css/style">
+    <link rel="icon" href="<?php echo $_url;?>templates/blue/images/icon_voda.png" type="image/png">
 </head>
 <body>
 <!--Bodyhere-->
@@ -55,3 +56,7 @@ if(isset($_SERVER['HTTP_REFERER'])) {
             <a href="<?= $previous ?>" class="fst-italic error_message">Go Back</a>
 </div>
 </div>
+<footer>
+
+
+</footer>

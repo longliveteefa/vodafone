@@ -55,9 +55,9 @@ document.querySelector(".two").addEventListener("click", function() {
 ?>
 <?php 
 if($title == "Log in"){
-
-  if($_GET['g']){
-  
+?>
+<?php 
+  if($_GET['g'] ?? null){
 ?>
 <script>
 Swal.fire({
